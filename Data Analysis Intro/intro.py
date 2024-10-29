@@ -24,6 +24,16 @@ data = pandas.read_csv("weather_data.csv")
 # print(data["condition"]) #More of a Key
 # print(data.condition) #More of an Object
 
-#Get data from Row
-print(data[data.day == "Monday"])
-print(data[data.temp == data.temp.max()])
+# #Get data from Row
+# print(data[data.day == "Monday"])
+# print(data[data.temp == data.temp.max()])
+
+#Create DataFrame from scratch
+data_dict = {
+    "students": ["Amy", "James", "Angela"],
+    "scores": [70, 56, 89]
+}
+
+data2 = pandas.DataFrame(data_dict)
+print(data2)
+#data2.to_csv() ->Create a new csv file.
