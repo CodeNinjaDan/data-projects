@@ -24,3 +24,5 @@ def generate_phonetic():
 generate_phonetic()
 
 
+#Test GPG configuration
+#This is a test.
