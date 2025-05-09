@@ -3,3 +3,13 @@ venv
 *.pyc
 *.idea
 *.csv
+*.db
+*.env
+venv/
+.vscode
+env
+instance
+*.exe
+*.jpg
+*.ico
+*.pdf
